@@ -20,8 +20,7 @@ namespace FC_sorter
         private void button1_Click(object sender, EventArgs e)
         {
             string input = textBox1.Text;
-            input = String.Concat(input.OrderBy(c => c));
-            textBox2.Text = input;
+            textBox2.Text = String.Concat(input.OrderBy(c => c));
         }
     }
 }
